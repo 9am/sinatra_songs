@@ -16,7 +16,7 @@ end
 
 configure do
   enable :sessions
-  set :username, 'eric'
+  set :username, 'frank'
   set :password, 'sinatra'
 end
 

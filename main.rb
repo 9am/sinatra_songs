@@ -32,6 +32,10 @@ get '/contact' do
   slim :contact
 end
 
+not_found do
+  slim :not_found
+end
+
 get '/login' do
   slim :login
 end
